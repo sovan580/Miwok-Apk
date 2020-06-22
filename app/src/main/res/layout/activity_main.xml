@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#FFFACD">
+
+    <TextView
+        android:id="@+id/numbers"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="1"
+        android:background="#FFA500"
+        android:paddingLeft="70dp"
+        android:paddingTop="20dp"
+        android:text="NUMBERS"
+        android:textSize="45dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/colors"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="1"
+        android:background="#32CD32"
+        android:paddingLeft="90dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        android:text="COLORS"
+        android:textSize="45dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/family"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="1"
+        android:background="#A020F0"
+        android:paddingLeft="95dp"
+        android:paddingTop="20dp"
+        android:text="FAMILY "
+        android:textSize="45dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/phrases"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="25dp"
+        android:layout_weight="1"
+        android:background="#00BFFF"
+        android:paddingLeft="80dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        android:text="PHRASES"
+        android:textSize="45dp"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
